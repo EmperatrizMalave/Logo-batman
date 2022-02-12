@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: -o-linear-gradient(60deg,#303030);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot {
+    width: 230px;
+    height: 130px;
+    background-color: #fdff00;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.logo {
+    position: absolute;
+    width: 212px;
+    height: 112px;
+    background-color: black;
+    border-radius: 50%;
+
+}
+.foot-1 {
+    position: absolute;
+    background-color: #fdff00;
+    width: 33px;
+    height: 70px;
+    border-radius: 50%;
+    top: 67px;
+    left: 44px;
+    transform: rotate(-41deg);
+}
+
+.foot-2 {
+    position: absolute;
+    background-color: #fdff00;
+    width: 33px;
+    height: 70px;
+    border-radius: 50%;
+    top: 67px;
+    right: 44px;
+    transform: rotate(41deg);
+}
+.foot-3 {
+    position: absolute;
+    background-color: #fdff00;
+    width: 33px;
+    height: 70px;
+    border-radius: 50%;
+    top: 70px;
+    left: 65px;
+    transform: rotate(-15deg);
+}
+
+.foot-4 {
+    position: absolute;
+    background-color: #fdff00;
+    width: 33px;
+    height: 70px;
+    border-radius: 50%;
+    top: 70px;
+    right: 65px;
+    transform: rotate(15deg);
+}
+
+.foot-5 {
+    position: absolute;
+    background-color: #fdff00;
+    width: 36px;
+    height: 40px;
+    border-radius: 50%;
+    top: -5px;
+    left: 55px;
+}
+
+.foot-6 {
+    position: absolute;
+    background-color: #fdff00;
+    width: 36px;
+    height: 40px;
+    border-radius: 50%;
+    top: -5px;
+    right: 55px;
+}
+
+.sq-1 {
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    background-color: #fdff00;
+    top: -1;
+    left: 75px;
+  
+}
+
+.sq-2 {
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    background-color: #fdff00;
+    top: -1;
+    right: 75px;
+    
+}
+
+.ears {
+    position: absolute;
+    top: 0;
+    left: 94px;
+    border-bottom: 16px solid #fdff00 ;
+    border-left: 7px solid black;
+    border-right: 7px solid black;
+    width: 11px;
+    transform: rotate(179deg);
+
+
+}
+
+
